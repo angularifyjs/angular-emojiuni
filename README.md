@@ -8,6 +8,7 @@ For more information about emoji unicode tables, please visit
 [http://apps.timwhitlock.info/emoji/tables/unicode](http://apps.timwhitlock.info/emoji/tables/unicode)
 
 
+
 Usage
 ---------
 
