@@ -5,7 +5,7 @@ Emoji Unicode for Angular web application. This module is best for sharing data 
 
 For more information about emoji unicode tables, please visit
 
-[http://apps.timwhitlock.info/emoji/tables/unicode#block-6a-additional-emoticons](http://apps.timwhitlock.info/emoji/tables/unicode#block-6a-additional-emoticons)
+[http://apps.timwhitlock.info/emoji/tables/unicode](http://apps.timwhitlock.info/emoji/tables/unicode)
 
 
 Usage
