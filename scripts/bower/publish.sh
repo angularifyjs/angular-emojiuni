@@ -4,8 +4,8 @@
 # ./publish.sh
 
 ARG_DEFS=(init prepare publish cleanup)
-REPO="git@github.com:angularifyjs/bower-angular-closure.git"
-NAME="angular-closure"
+REPO="git@github.com:angularifyjs/bower-angular-emojiuni.git"
+NAME="angular-emojiuni"
 
 function init {
   ROOT_DIR=$(resolveDir ../..)
@@ -43,7 +43,7 @@ function prepare {
   echo ""
   echo "------------------------------------------------"
   echo "-- Remove old scripts and copy new scripts"
-  rm -rf closure*
+  rm -rf emojiuni*
   cp -R ../../LICENSE .
   cp -R ../../dist/* .
 }

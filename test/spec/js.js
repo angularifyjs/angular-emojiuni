@@ -12,4 +12,11 @@ describe('angular-emojiuni', function() {
     expect(emojiuni(src)).to.be.equal(dest);
   }));
 
+  it('should compile emoji programmatically', inject(function(Emojiuni){
+  	var src = '<div>hello moto 😁</div>';
+    var dest = '<div>hello moto <img class="emojiuni" src="/1f601.png" /></div>';
+
+    expect(Emojiuni.compile(src)).to.be.equal(dest);
+  }));
+
 });
