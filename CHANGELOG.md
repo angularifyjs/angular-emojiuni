@@ -1,4 +1,5 @@
 #### Features
 
-* **Closure.extend**
-* **Closure.bind**
+* **Emojiuni filter**
+* **Emojiuni provider**
+* **Emojiuni filter**

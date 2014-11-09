@@ -1,32 +1,30 @@
 {
-  "name": "angular-closure",
+  "name": "angular-emojiuni",
   "version": "1.2.26",
-  "description": "Bring class into javascript with extendable and bindable feature.",
+  "description": "Emoji Unicode for Angular web application.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angularifyjs/angular-closure.git"
+    "url": "git://github.com/angularifyjs/angular-emojiuni.git"
   },
   "keywords": [
     "angular",
-    "closure",
-    "class",
-    "extend",
-    "bind"
+    "emoji",
+    "unicode"
   ],
   "author": "Henry Tao <hi@henrytao.me>",
   "licenses": [{
     "type": "MIT",
-    "url": "https://github.com/angularifyjs/angular-closure/blob/master/LICENSE",
+    "url": "https://github.com/angularifyjs/angular-emojiuni/blob/master/LICENSE",
     "description": "Copyright (c) 2014 Angularfiy.org & HenryTao."
   }],
   "bugs": {
-    "url": "https://github.com/angularifyjs/angular-closure/issues"
+    "url": "https://github.com/angularifyjs/angular-emojiuni/issues"
   },
-  "homepage": "https://github.com/angularifyjs/angular-closure",
+  "homepage": "https://github.com/angularifyjs/angular-emojiuni",
   "devDependencies": {
     "coveralls": "2.11.1",
     "expect.js": "0.3.1",

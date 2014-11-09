@@ -57,7 +57,7 @@ gulp.task('test', function(done) {
 
 gulp.task('uglify', function(done) {
   return gulp.src('./src/**/*.js')
-    .pipe(concat('closure.js'))
+    .pipe(concat('emojiuni.js'))
     .pipe(ngAnnotate())
     .pipe(header(banner, {
       pkg: pkg,
@@ -65,7 +65,7 @@ gulp.task('uglify', function(done) {
     }))
     .pipe(gulp.dest('./dist'))
 
-    .pipe(concat('closure.min.js'))
+    .pipe(concat('emojiuni.min.js'))
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg,
